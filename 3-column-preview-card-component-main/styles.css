@@ -1,0 +1,134 @@
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+.car-box{
+    display: flex;
+    margin-left: 125px;
+    margin-right: 125px;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+}
+.background-box{
+    display: absolute;
+    margin: 50px 50px 25px 50px;
+    box-shadow: 0px 30px 100px -70px;
+    height: 650px
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 35px;
+    height: 400px;
+    max-width: 225px;
+    
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 35px;
+    height: 400px;
+    border-radius: 0px 7px 7px 0px;
+    max-width: 225px;
+    
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 35px;
+    height: 400px;
+    border-radius: 7px 0px 0px 7px;
+    max-width: 225px;
+    
+}
+
+.title{
+    font-family:Big Shoulders Display;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    font-size: 35px;
+}
+p {
+font-family: Lexend Deca;
+color: hsla(0, 0%, 100%, 0.75);
+font-size: 15px;
+line-height: 25px;
+}
+
+p .title{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.learn-more1, .learn-more2, .learn-more3 {
+    margin-top: 100px;
+    margin-right: 80px;
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 30px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.learn-more1{
+    transition: 0.5s;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+}
+.learn-more2{
+    transition: 0.5s;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+}
+.learn-more3{
+    transition: 0.5s;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+}
+
+.learn-more1:hover{
+    transition: 0.25s;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
+.learn-more2:hover{
+    transition: 0.25s;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
+.learn-more3:hover{
+    transition: 0.25s;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.learn-more1:active, .learn-more2:active, .learn-more3:active{
+    transition: .25s;
+    height: 75px;
+    width: 150px;
+    font-size: 20px;
+}
+.car-icon{
+    margin-bottom: 60px;
+}
+
+img{
+    height: 40px;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+button{
+    display: relative;
+}
